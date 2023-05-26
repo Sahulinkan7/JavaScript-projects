@@ -4,11 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b8a169592b.js" crossorigin="anonymous"></script>
     <title>Password generator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="main">
+        <div class="box">
+            <div class="passwordbox">
+                <h1 id="genpass">New Password</h1>
+                <i class="fa-solid fa-clipboard"><span class="tooltip">Click to copy</span></i>
+            </div>
+            <div class="row">
+                <div class="left">
+                    <label for="passlength">Password Length </label>
+                </div>
+                <div class="right">
+                    <input type="number" name="" id="passlength" max="30" min="2" value="5">
+                </div>
+            </div>
+            <div class="row">
+                <div class="left">
+                    <label for="upper-case">Contains Upper Case</label>
+                </div>
+                <div class="right">
+                    <input type="checkbox" name="" id="upper-case" checked>
+                </div>
+            </div>
+            <div class="row">
+                <div class="left">
+                    <label for="lower-case">Contains lowercase</label>
+                </div>
+                <div class="right">
+                    <input type="checkbox" name="" id="lower-case" checked>
+                </div>
+            </div>
+            <div class="row">
+                <div class="left">
+                    <label for="numbers">Contains Numbers</label>
+                </div>
+                <div class="right">
+                    <input type="checkbox" name="" id="numbers" checked>
+                </div>
+            </div>
+            <div class="row">
+                <div class="left">
+                    <label for="symbol">Contains symbol</label>
+                </div>
+                <div class="right">
+                    <input type="checkbox" name="" id="symbol" checked>
+                </div>
+            </div>
+            <button class="btn">Generate Password</button>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
