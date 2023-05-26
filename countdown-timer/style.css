@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    width: 100%;
+    height:100%;
+}
+
+.main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #442706;
+    height:100vh;
+}
+
+.counter{
+    background-color: #1b1919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:10px solid transparent;
+    padding:10px;
+    margin:20px;
+    box-shadow: 10px 20px 90px rgba(240, 250, 235, 0.4);
+
+}
+
+.counter .input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:25px;
+    margin:25px;
+}
+
+label{
+    font-size: 20px;
+    color:white;
+}
+input{
+    width:50%;
+    height:50px;
+    margin-bottom: 10px;
+    border-color: transparent;
+    border-radius: 5px;
+    font-size: 30px;
+    text-align: center;
+}
+.headings p{
+    color:white;
+    font-size: 30px;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    font-family: 'Instrument Sans', sans-serif;;
+}
+.red{
+    color:red;
+}
+

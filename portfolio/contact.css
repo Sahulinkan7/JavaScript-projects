@@ -1,0 +1,20 @@
+.contactform{
+    width:70vw;
+    height:60vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    flex-direction: column;
+}
+
+.formclass{
+    margin: 20px;
+    padding:20px;
+}
+
+label{
+    padding:4px;
+    margin: 30px;
+}
